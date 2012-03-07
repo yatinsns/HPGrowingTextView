@@ -253,7 +253,7 @@
         // if our new height is greater than the maxHeight
         // sets not set the height or move things
         // around and enable scrolling
-		if (newSizeH >= maxHeight)
+		if (newSizeH > maxHeight)
 		{
 			if(!internalTextView.scrollEnabled){
 				internalTextView.scrollEnabled = YES;
